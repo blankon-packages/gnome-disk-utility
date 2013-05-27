@@ -1,9 +1,21 @@
-gnome-disk-utility (3.6.1-1blankon1) suroboyo; urgency=low
+gnome-disk-utility (3.8.0-1blankon1) suroboyo; urgency=low
 
-  * New upstream release
-  * Change Maintainer
-  
- -- Mahyuddin <dotovr@di.blankon.in>  Mon, 04 Mar 2013 16:07:34 +0700
+  * Import to suroboyo
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Mon, 27 May 2013 17:05:18 +0700
+
+gnome-disk-utility (3.8.0-1) experimental; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 3.8.0
+  * Bump udisks2 build-dependency to >= 2.1.0 according to configure.ac
+  * Add new build-dependencies according to configure.ac
+    - canberra, libdvdread, gnome-settings-daemon, libnotify
+  * Don't ship any *.la files
+  * Bump gsd to >= 3.8 according to https://bugzilla.gnome.org/697146
+  * Add libsystemd-login-dev build-dependency to enable multiseat support
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sat, 25 May 2013 16:20:41 +0200
 
 gnome-disk-utility (3.6.1-1) experimental; urgency=low
 
