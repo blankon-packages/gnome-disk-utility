@@ -1,3 +1,15 @@
+gnome-disk-utility (3.12.0-1blankon1) tambora; urgency=low
+
+  * New upstream release.
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Thu, 27 Mar 2014 02:44:04 +0700
+
+gnome-disk-utility (3.12.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 3.12.0
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sun, 23 Mar 2014 18:47:25 +0100
+
 gnome-disk-utility (3.10.0-0blankon1) suroboyo; urgency=low
 
   * New Upstream Release
